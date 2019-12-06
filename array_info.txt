@@ -1,0 +1,27 @@
+
+Char size is 1 byte
+Int size is 2 bytes
+Float size is 4 bytes
+
+
+A[10]
+Size =10 // # elements in the array
+A is the name of the array
+0 lower bound
+9 upper bound
+Array starting address is base address also a first element address
+
+
+6th element address is = base address + 6 *2 (esize)
+
+Int A[23]
+Size = 23
+Lower bound =0
+Upper bound = 22
+46 bytes of memory is  needed to store this array (23 * 2 ) int size 2 bytes
+Let  base address is 2019.
+Size of the each element  2 bytes
+Esize= size of the element
+Address of A[19] = 2019 + 19 * 2
+
+Formula to find address of an ith element in the array= base address + i * esize
